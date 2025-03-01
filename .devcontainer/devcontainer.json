@@ -1,0 +1,10 @@
+{
+	"name": "Ubuntu",
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"features": {
+		"ghcr.io/prulloac/devcontainer-features/bun:1": {},
+		"ghcr.io/devcontainers-extra/features/npm-package:1": {
+			"package": "@railway/cli"
+		}
+	}
+}
